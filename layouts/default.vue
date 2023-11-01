@@ -34,8 +34,8 @@ const pages = [
     "Beranda",
     "Konsultasi",
     "Video",
-    "Games",
-    "Laporan",
+    // "Games",
+    // "Laporan",
 ]
 
 var currentPage = ref('Beranda')
