@@ -8,7 +8,7 @@
                     <button class="bg-orange-400 w-fit px-6 py-2 rounded-lg">Mulai Belajar</button>
                 </div>
                 <div class="">
-                    <h2 class="text-center text-2xl">Vidio Pembelajaran</h2>
+                    <h2 class="text-center text-2xl">Video Pembelajaran</h2>
                     <div class="mt-3 flex flex-col gap-3">
                         <div class="bg-white rounded-lg px-4 py-2">
                             <iframe src="https://drive.google.com/file/d/1ubcxRc4LXXV8PUMSiQcbdcwThW3AKfnp/preview?usp=sharing&amp;controls=0&amp;disablekb=1&amp;modestbranding=1&amp;rel=0&amp;showinfo=0" class="w-full h-[16rem] rounded-xl"></iframe>
