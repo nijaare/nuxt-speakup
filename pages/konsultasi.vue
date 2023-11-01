@@ -53,11 +53,10 @@
                         <button class="text-orange-500 underline">Lihat semua</button>
                     </div>
                     <div class="grid grid-cols-2 gap-3">
-                        <div class="bg-white px-4 py-2 rounded-sm" v-for="mentor of semuaMentor">
-                            <div :alt="mentor.nama" class="h-40 w-full bg-cover" />
-                            <h2>{{ mentor.nama }}</h2>
-                            <p>Ketua Mentor</p>
-                        </div>
+                        <a :href="'https://api.whatsapp.com/send?phone='+mentor.noTelp" class="bg-white px-4 py-2 rounded-lg" v-for="mentor of semuaMentor">
+                            <NuxtImg :src="'/img/'+mentor.img" class="object-cover w-full h-[9rem] rounded-lg mb-2"/>
+                            <h2 class="font-semibold">{{ mentor.nama }}</h2>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -69,22 +68,22 @@
 const semuaMentor = [
     {
         nama: 'Fathan Zhafiri',
-        noTelp: '+628111113043',
+        noTelp: '628111113043',
         img: 'a.jpg'
     },
     {
         nama: 'Inka Puspadharma',
-        noTelp: '+6282115863629',
+        noTelp: '6282115863629',
         img: 'b.jpg'
     },
     {
         nama: 'Sofiyatun Hasanah',
-        noTelp: '+6281288053190',
+        noTelp: '6281288053190',
         img: 'c.jpg'
     },
     {
         nama: 'Muhammad Nizar Ali',
-        noTelp: '+6285245561226',
+        noTelp: '6285245561226',
         img: 'd.jpg'
     },
 ]
